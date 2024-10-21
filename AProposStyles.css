@@ -1,0 +1,79 @@
+nav{
+    display: fixed;
+    width: 100%;
+    height: 100px;
+    border: 2px solid black;
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    padding: 0 20px;
+    background-color: purple;
+}
+
+.logo{
+    height: 100%;
+    width: 15%;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    width: 60%;
+    padding: 0 20px;
+    background-color : purple;
+
+}
+
+.navBouton{
+    background-color: rgb(112, 0, 112);
+    color: white;
+    border-radius: 10px 3px 10px 3px;
+    border: 5px solid rgb(96, 0, 96);
+    padding: 3px 5px;
+    text-decoration: none;
+    
+}
+
+.boutonLogIn{
+    display: flex;
+    height: 100%;
+    width: 20%;
+    justify-content: center;
+    align-items: center;
+}
+
+.logIn{
+    background-color: rgb(241, 223, 241);
+    color: rgb(49, 9, 87);
+    text-align:center;
+    font-size: 30px;
+    border-radius: 20px 20px 20px 20px;
+    border: 10px solid rgb(96, 0, 96);
+    padding: 3px 5px;
+    text-decoration: none;
+    height: 50%;
+    width: 50%;
+}
+
+
+h1{
+    color: purple;
+    font-size: 50px;
+    text-align: center;
+}
+
+
+body{
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+}
