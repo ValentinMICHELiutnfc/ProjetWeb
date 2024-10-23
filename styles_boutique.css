@@ -7,6 +7,10 @@ body{
     ;
 }
 
+h2{
+    color: white;
+}
+
 .box{
     display: flex;
     justify-content: space-between;
@@ -15,6 +19,8 @@ body{
     padding: 20px 80px 20px 80px;
     border-radius: 4px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    gap: 20px;
+    flex-wrap: wrap;
 }
 
 .content{
@@ -25,15 +31,16 @@ body{
     flex-direction: column;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     gap: 25px;
+    align-items: center;
+    /*flex-wrap: wrap;*/
 }
 
 .perc{
-    height: 250px
-    ;
+    height: 250px;
 }
 
 .perc:hover{
-    transform: scale(1.1);
+    transform: scale(1.05);
     transition: 1500ms;
 }
 
@@ -42,12 +49,14 @@ body{
     flex-direction: row;
     gap: 25px;
     justify-content: space-between;
+    width: 100%;
 }
 
 
 .nomarticle{
     font-size: 25px;
     color: #eae313;
+    font-weight: bold;
 }
 
 .prix{
