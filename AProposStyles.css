@@ -10,7 +10,7 @@
     transition: 0.5s;
     border: 0.2vw solid black;
     top: 0;
-    font-size: 3vw;
+    font-size: 5vw;
 }
 
 .menu{
@@ -24,17 +24,14 @@
 }
 
 .fleche{
-    position: relative;
-    left:center;
-    top:-3vw;
     color: white;
-    font-size: 5vw;
     display:none !important;
 }
 
 .logo{
     height: 100%;
     width: 15%;
+    transition: 0.5s;
     margin-top: 0.6vw;
 }
 
@@ -105,8 +102,7 @@ nav{
 .corps{
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
-    gap: 10%;
+    gap: 3vw;
     justify-content: center;
     align-items: center;
     height: 100%;
@@ -136,6 +132,8 @@ nav{
     }
 
     .corps{
+        display: flex;
+        flex-direction: column;
         margin-top: 6vw;
     }
 
@@ -149,7 +147,7 @@ nav{
         display:inline-block !important;
         position: relative;
         left: 50%;
-        top:2vw;
+        top:1vw;
     }
 
     .navbar:hover .menu{
@@ -198,4 +196,21 @@ body{
     margin-left: 0;
     margin-right: 0px;
     margin-top: 0;
+}
+
+.contenu{
+    margin: 2vw;
+    width: 65%;
+}
+
+
+.scroll{
+    height: 50vh;
+    width:212px;
+    border:2px solid purple;
+    overflow:auto;
+    padding: 1vw;
+    margin: 1vw;
+    border-radius: 20px 5px 20px 5px;
+    background-color: rgb(241, 223, 241);
 }
