@@ -1,0 +1,148 @@
+.p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.un {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.material-symbols-outlined{
+  text-align: center;
+}
+
+body {
+
+  background-color: #8806ce; 
+}
+
+.Page {
+  margin-right: 20px;
+  margin-left: 50px;
+  padding-top: 180px;
+  font-size: 20px;
+}
+
+
+.container {
+  display: flex;
+  flex-direction: column; 
+  gap: 20px; /* Espace entre le texte et les images */
+}
+
+.bienvenue{
+  color: aliceblue;
+  display: flex;
+  position: absolute;
+  top : 375px;
+}
+
+
+.imageprincipale {
+  display: flex;
+  flex-direction: column;  /* Largeur des images */
+  gap: 10px; /* Espace entre les images */
+  align-items: center;
+}
+
+strong{
+  text-justify: center;
+}
+
+
+
+.avcbouton {
+  font-size: 25px;
+  display: flex;
+  flex-direction: row;
+  width: 65%; 
+  background-color: plum; 
+  align-items: center; 
+  color: rgb(51, 3, 43);
+}
+
+.grandeimage {
+  width: 100%;
+  opacity: 0.3;
+  border-radius: 10px;
+  border: 8px solid rgb(131, 0, 131);
+}
+
+.imagetexte {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between; 
+  width: 92%; 
+  background-color: #330066;
+  padding: 20px; 
+  border-radius: 10px;
+  border: 5px #330066;
+  margin-bottom: 10px;
+}
+
+.imagetexte img {
+  margin-right: 20px; /* Espace entre l'image et le texte */
+}
+
+.texte {
+  color: white;
+  font-size: 18px; 
+  flex: 1; /* Le texte occupe l'espace restant */
+}
+
+
+.zones_de_texte {
+  top: 800px;
+  position: absolute; /* Positionnement absolu */
+  right: 30px; 
+  width: 30%; 
+  display: flex;
+  flex-direction: column;
+  gap: 50px; /* Espacement entre les deux zones */
+}
+
+.zone_texte {
+  box-shadow: #080707 0px 0px 15px;
+  flex-direction: column;
+  background-color: plum; 
+  color: #500379; 
+  padding: 10px; 
+  border-radius: 10px; 
+  font-size: 18px; 
+  gap: 10px;
+}
+
+
+
+.Boutonacheter{
+  display: flex;
+  justify-content: center;
+  background-color: rgb(222, 90, 237);
+  color: #330066;
+  font-size: 20px;
+  border-radius: 10%;
+  height: 15px;
+  width: 25px;
+  padding: 20px 25px;
+  text-decoration: none;
+  box-shadow: #080707 0px 0px 10px;
+}
+
+.tropdeflexbox{
+  display: flex;
+  flex-direction: row;
+  gap: 30px ;
+}
+
+@media (max-width: 650px){
+  footer{
+    iframe {
+      display: none;
+    }
+  }
+  
+}
