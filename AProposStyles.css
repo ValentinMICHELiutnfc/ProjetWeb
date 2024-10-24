@@ -1,7 +1,12 @@
+
+.material-symbols-outlined{
+    font-size: inherit !important;
+}
+
 nav{
     display: fixed;
     width: 100%;
-    height: 100px;
+    height: 8vw;
     border: 2px solid black;
 }
 
@@ -9,16 +14,17 @@ nav{
     display: flex;
     flex-direction: row;
     justify-content:space-between;
-    align-items: center;
+    align-items: stretch;
     height: 100%;
     width: 100%;
     padding: 0 20px;
-    background-color: purple;
+    background-color: rgb(136, 0, 136);
 }
 
 .logo{
     height: 100%;
     width: 15%;
+    margin-top: 0.6vw;
 }
 
 .navbar{
@@ -28,19 +34,31 @@ nav{
     align-items: center;
     height: 100%;
     width: 60%;
-    padding: 0 20px;
-    background-color : purple;
+    padding: 0 2vw;
 
 }
 
 .navBouton{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
     background-color: rgb(112, 0, 112);
     color: white;
-    border-radius: 10px 3px 10px 3px;
-    border: 5px solid rgb(96, 0, 96);
+    text-wrap: nowrap;
+    font-size: 1.8vw;
+    border-radius: 1vw 0.4vw 1vw 0.4vw;
+    border: 0.5vw solid rgb(63, 0, 63);
     padding: 3px 5px;
+    height: 3vw;
+    width: 8vw;
     text-decoration: none;
     
+}
+
+.navbouton:hover .navBouton{
+    background-color: rgb(63, 0, 63);
+    color: white;
 }
 
 .boutonLogIn{
@@ -52,16 +70,21 @@ nav{
 }
 
 .logIn{
+    display: flex;
+    flex-direction: row;
     background-color: rgb(241, 223, 241);
     color: rgb(49, 9, 87);
-    text-align:center;
-    font-size: 130%;
+    text-align: center;
+    font-size: 1.75vw;
     border-radius: 20px 20px 20px 20px;
-    border: 10px solid rgb(96, 0, 96);
+    border: 1vw solid rgb(96, 0, 96);
     padding: 3px 5px;
     text-decoration: none;
-    height: 50%;
-    width: 50%;
+    height: 4vw;
+    width: 55%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
@@ -76,4 +99,17 @@ body{
     margin-left: 0;
     margin-right: 0;
     margin-top: 0;
+}
+
+.corps{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10%;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(247, 210, 247);
+    margin : 5%;
 }
