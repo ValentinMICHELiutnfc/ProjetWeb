@@ -121,18 +121,18 @@ nav{
 @media (max-width: 650px) {
     .menu{
         display:none;
-        background-color: black;
     }
 
     .navbar{
-        background-color: black;
+        background-color: rgb(136, 0, 136);
         height: 5vw;
     }
+
     .logo{
         display: none;
         align-items: center;
         justify-content: center;
-        width: 10%;
+        width: 20%;
     }
 
     .corps{
@@ -163,10 +163,20 @@ nav{
         align-items: center;
     }
 
+    .navbar:hover .logo{
+        display: flex;
+        position:absolute;
+        top:0;
+        left: 1vw;
+        align-items: center;
+        justify-content: center;
+    }
+
     .navbar:hover{
         height: 20vw;
         transition: 0.5s;
     }
+
 
     .navbar:hover .fleche{
         display:none !important;
