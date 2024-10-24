@@ -3,11 +3,14 @@
     font-size: inherit !important;
 }
 
-nav{
-    display: fixed;
-    width: 100%;
+.navbar{
+    position: fixed;
+    width: calc(100% - 0.38vw);
     height: 8vw;
-    border: 2px solid black;
+    transition: 0.5s;
+    border: 0.2vw solid black;
+    top: 0;
+    font-size: 3vw;
 }
 
 .menu{
@@ -17,8 +20,16 @@ nav{
     align-items: stretch;
     height: 100%;
     width: 100%;
-    padding: 0 20px;
     background-color: rgb(136, 0, 136);
+}
+
+.fleche{
+    position: relative;
+    left:center;
+    top:-3vw;
+    color: white;
+    font-size: 5vw;
+    display:none !important;
 }
 
 .logo{
@@ -27,7 +38,7 @@ nav{
     margin-top: 0.6vw;
 }
 
-.navbar{
+nav{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -35,6 +46,7 @@ nav{
     height: 100%;
     width: 60%;
     padding: 0 2vw;
+    gap:1vw;
 
 }
 
@@ -56,9 +68,8 @@ nav{
     
 }
 
-.navbouton:hover .navBouton{
+.navBouton:hover{
     background-color: rgb(63, 0, 63);
-    color: white;
 }
 
 .boutonLogIn{
@@ -76,15 +87,93 @@ nav{
     color: rgb(49, 9, 87);
     text-align: center;
     font-size: 1.75vw;
-    border-radius: 20px 20px 20px 20px;
+    border-radius: 5px 20px 5px 20px;
     border: 1vw solid rgb(96, 0, 96);
     padding: 3px 5px;
     text-decoration: none;
     height: 4vw;
     width: 55%;
-    display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.logIn:hover{
+    background-color: rgb(221, 189, 221);
+
+}
+
+.corps{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10%;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 96%;
+    background-color: rgb(247, 210, 247);
+    margin-top: 9vw;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+
+@media (max-width: 650px) {
+    .menu{
+        display:none;
+        background-color: black;
+    }
+
+    .navbar{
+        background-color: black;
+        height: 5vw;
+    }
+    .logo{
+        display: none;
+        align-items: center;
+        justify-content: center;
+        width: 10%;
+    }
+
+    .corps{
+        margin-top: 6vw;
+    }
+
+    .navBouton{
+        height: 4.5vw;
+        width:12vw;
+        font-size: 2.625vw;
+    }
+
+    .fleche{
+        display:inline-block !important;
+        position: relative;
+        left: 50%;
+        top:2vw;
+    }
+
+    .navbar:hover .menu{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        height: 100%;
+        width: 100%;
+        background-color: rgb(136, 0, 136);
+        align-items: center;
+    }
+
+    .navbar:hover{
+        height: 20vw;
+        transition: 0.5s;
+    }
+
+    .navbar:hover .fleche{
+        display:none !important;
+    }
+  
+    
+
 }
 
 
@@ -97,19 +186,6 @@ h1{
 
 body{
     margin-left: 0;
-    margin-right: 0;
+    margin-right: 0px;
     margin-top: 0;
-}
-
-.corps{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    gap: 10%;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-    width: 100%;
-    background-color: rgb(247, 210, 247);
-    margin : 5%;
 }
