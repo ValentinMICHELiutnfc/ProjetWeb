@@ -105,12 +105,26 @@ nav{
     gap: 3vw;
     justify-content: center;
     align-items: center;
-    height: 100%;
-    width: 96%;
-    background-color: rgb(247, 210, 247);
+    background-color: rgb(241, 223, 241);
+    border: 2px solid purple;
+    border-radius: 20px 5px 20px 5px;
+    padding: 1vw;
+    margin: 1vw;
     margin-top: 9vw;
-    margin-left: 2%;
-    margin-right: 2%;
+}
+
+.scroll{
+    height: 60vh;
+    min-width: 212px;
+    width: 35%;
+    border:0.3vw solid purple;
+    overflow:auto;
+    padding: 1vw;
+    margin: 1vw;
+    border-radius: 20px 5px 20px 5px;
+    background-color: rgb(241, 223, 241);
+    box-shadow: 0 0 20px rgb(183, 7, 183);
+    flex-shrink: 0;
 }
 
 
@@ -163,6 +177,7 @@ nav{
 
     .navbar:hover .logo{
         display: flex;
+        transition: 0.5s;
         position:absolute;
         top:0;
         left: 1vw;
@@ -178,6 +193,12 @@ nav{
 
     .navbar:hover .fleche{
         display:none !important;
+    }
+
+
+    .scroll{
+        width: 90%;
+        height: 75vh;
     }
   
     
@@ -200,17 +221,18 @@ body{
 
 .contenu{
     margin: 2vw;
-    width: 65%;
+    width: 55%;
 }
 
-
-.scroll{
-    height: 50vh;
-    width:212px;
-    border:2px solid purple;
-    overflow:auto;
+.formulaire{
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(241, 223, 241);
+    border: 2px solid purple;
+    border-radius: 20px 5px 20px 5px;
     padding: 1vw;
     margin: 1vw;
-    border-radius: 20px 5px 20px 5px;
-    background-color: rgb(241, 223, 241);
 }
