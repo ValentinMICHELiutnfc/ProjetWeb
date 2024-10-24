@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles_Panier.css">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <title>Panier</title>
+</head>
+<body>
+
+    <div class="Page">
+            <div class="container">   
+                <div class="imageprincipale">
+                    <div class="grandeimage">
+                        <img src="https://tse4.mm.bing.net/th?id=OIP.SFYVCY8xPE1Rryxmq8pAoAHaDp&pid=Api&P=0&h=180"  width="100%"  height="500px" alt="Image 1">
+                    </div> 
+                    <div class="bienvenue">
+                        <P><h1>Bienvenue dans le panier !</h1></P>
+                    </div>   
+                </div>
+                <div class="avcbouton">
+                    <div class="imagetexte">
+                        <img src="https://sp.yimg.com/ib/th?id=OPEC.rajGM%2bB5BxJQCQ474C474&o=5&pid=21.1&w=160&h=105" width="200px"  height="200px" alt="Image 1">
+                        <div class="texte">
+                            <p>
+                                Voici du texte intégré à droite de l'image. Ce texte est aligné à côté de l'image et peut contenir des informations supplémentaires ou des descriptions pertinentes.
+                            </p>
+                        </div>
+                    </div>
+                    <span class="material-symbols-outlined">
+                        add
+                        <br>
+                        <div class="un"> <p><strong>1</strong></p> </div>
+                        remove
+                    </span>
+                </div>
+                <div class="avcbouton">
+                    <div class="imagetexte">
+                        <img src="https://sp.yimg.com/ib/th?id=OPEC.rajGM%2bB5BxJQCQ474C474&o=5&pid=21.1&w=160&h=105" width="200px"  height="200px" alt="Image 1">
+                        <div class="texte">
+                            <p>
+                                Voici du texte intégré à droite de l'image. Ce texte est aligné à côté de l'image et peut contenir des informations supplémentaires ou des descriptions pertinentes.
+                            </p>
+                        </div>
+                    </div>
+                    <span class="material-symbols-outlined">
+                        add
+                        <br>
+                        <div class="un"> <p><strong>1</strong></p> </div>
+                        remove
+                    </span>
+                </div>
+                <div class="avcbouton">
+                    <div class="imagetexte">
+                        <img src="https://sp.yimg.com/ib/th?id=OPEC.rajGM%2bB5BxJQCQ474C474&o=5&pid=21.1&w=160&h=105" width="200px"  height="200px" alt="Image 1">
+                        <div class="texte">
+                            <p>
+                                Voici du texte intégré à droite de l'image. Ce texte est aligné à côté de l'image et peut contenir des informations supplémentaires ou des descriptions pertinentes.
+                            </p>
+                        </div>
+                    </div>
+                    <span class="material-symbols-outlined">
+                        add
+                        <br>
+                        <div class="un"> <p><strong>1</strong></p> </div>
+                        remove
+                    </span>
+                </div>
+                <div class="avcbouton">
+                    <div class="imagetexte">
+                        <img src="https://sp.yimg.com/ib/th?id=OPEC.rajGM%2bB5BxJQCQ474C474&o=5&pid=21.1&w=160&h=105" width="200px"  height="200px" alt="Image 1">
+                        <div class="texte">
+                            <p>
+                                Voici du texte intégré à droite de l'image. Ce texte est aligné à côté de l'image et peut contenir des informations supplémentaires ou des descriptions pertinentes.
+                            </p>
+                        </div>
+                    </div>
+                    <span class="material-symbols-outlined">
+                        add
+                        <br>
+                        <div class="un"> <p><strong>1</strong></p> </div>
+                        remove
+                    </span>
+                </div>
+                <div class="avcbouton">
+                    <div class="imagetexte">
+                        <img src="https://sp.yimg.com/ib/th?id=OPEC.rajGM%2bB5BxJQCQ474C474&o=5&pid=21.1&w=160&h=105" width="200px"  height="200px" alt="Image 1">
+                        <div class="texte">
+                            <p>
+                                Voici du texte intégré à droite de l'image. Ce texte est aligné à côté de l'image et peut contenir des informations supplémentaires ou des descriptions pertinentes.
+                            </p>
+                        </div>
+                    </div>
+                    <span class="material-symbols-outlined">
+                        add
+                        <br>
+                        <div class="un"> <p><strong>1</strong></p> </div>
+                        remove
+                    </span>
+                </div>
+
+
+
+
+                <div class="zones_de_texte">
+                    <div class="zone_texte">
+                        <p>Contenue en lien avec vos achats :</p>
+                        <div class="imagetexte" class=>
+                        <img src="https://sp.yimg.com/ib/th?id=OPEC.PTDx2ji33bKV%2fA474C474&o=5&pid=21.1&w=160&h=105" width="150px"  height="150px" alt="Image 1">
+                            <div class="texte">
+                                <p>
+                                    Voici du texte intégré à droite de l'image. Ce texte est aligné à côté de l'image et peut contenir des informations supplémentaires ou des descriptions pertinentes.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="imagetexte">
+                        <img src="https://sp.yimg.com/ib/th?id=OPEC.PTDx2ji33bKV%2fA474C474&o=5&pid=21.1&w=160&h=105" width="150px"  height="150px" alt="Image 1">
+                            <div class="texte">
+                                <p>
+                                    Voici du texte intégré à droite de l'image. Ce texte est aligné à côté de l'image et peut contenir des informations supplémentaires ou des descriptions pertinentes.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="imagetexte">
+                            <img src="https://sp.yimg.com/ib/th?id=OPEC.PTDx2ji33bKV%2fA474C474&o=5&pid=21.1&w=160&h=105" width="150px"  height="150px" alt="Image 1">
+                                <div class="texte">
+                                    <p>
+                                        Voici du texte intégré à droite de l'image. Ce texte est aligné à côté de l'image et peut contenir des informations supplémentaires ou des descriptions pertinentes.
+                                    </p>
+                                </div>
+                            </div>
+                        <div class="imagetexte">
+                            <img src="https://sp.yimg.com/ib/th?id=OPEC.PTDx2ji33bKV%2fA474C474&o=5&pid=21.1&w=160&h=105" width="150px"  height="150px" alt="Image 1">
+                                <div class="texte">
+                                    <p>
+                                        Voici du texte intégré à droite de l'image. Ce texte est aligné à côté de l'image et peut contenir des informations supplémentaires ou des descriptions pertinentes.
+                                    </p>
+                                </div>
+                            </div>
+                    </div>
+                    
+                    <div class="zone_texte">
+                        <p> vous avez commandez 5 articles </p>
+                        <div class="tropdeflexbox">
+                            <p> prix : 8636 €  </p>
+                            <p class="Boutonacheter" href="#"> Payer </p>
+                        </div>
+                        
+                        
+                    </div>
+                </div>
+            </div> 
+</body>
+</html>
