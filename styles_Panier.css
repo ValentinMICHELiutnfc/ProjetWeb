@@ -199,13 +199,13 @@ nav{
 }
 
 body {
-  background: linear-gradient(45deg, #ffccff, #330066 , #ffccff );
+  background: linear-gradient(45deg, #330066, #ffccff, #330066 ,#ffccff );
   margin: 0;
 }
 
 .Page {
   margin-right: 20px;
-  margin-left: 50px;
+  margin-left: 20px;
   padding-top: 180px;
   font-size: 20px;
 }
@@ -240,7 +240,6 @@ body {
 .imageprincipale {
   display: flex;
   flex-direction: column;  /* Largeur des images */
-  gap: 10px; /* Espace entre les images */
   align-items: center;
 }
 
@@ -329,7 +328,7 @@ strong{
   position : sticky;
   bottom: 10px;
   right: 10px;
-  box-shadow: #e700ef 0px 0px 15px;
+  box-shadow: #940199 0px 0px 15px;
   flex-direction: column;
   background-color: rgb(131, 0, 131); 
   color: white; 
