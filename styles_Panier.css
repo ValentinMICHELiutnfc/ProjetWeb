@@ -1,9 +1,193 @@
-.p {
-  font-family: "Poppins", sans-serif;
-  font-weight: 100;
-  font-style: normal;
+.navbar{
+  position: fixed;
+  width: calc(100% - 0.38vw);
+  height: 8vw;
+  transition: 0.5s;
+  border: 0.2vw solid black;
+  top: 0;
+  font-size: 5vw;
 }
 
+.menu{
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+  align-items: stretch;
+  height: 100%;
+  width: 100%;
+  background-color: rgb(136, 0, 136);
+}
+
+.fleche{
+  color: white;
+  display:none !important;
+}
+
+.logo{
+  height: 100%;
+  width: 15%;
+  transition: 0.5s;
+  margin-top: 0.6vw;
+}
+
+nav{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  width: 60%;
+  padding: 0 2vw;
+  gap:1vw;
+
+}
+
+.navBouton{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(112, 0, 112);
+  color: white;
+  text-wrap: nowrap;
+  font-size: 1.8vw;
+  border-radius: 1vw 0.4vw 1vw 0.4vw;
+  border: 0.5vw solid rgb(63, 0, 63);
+  padding: 3px 5px;
+  height: 3vw;
+  width: 8vw;
+  text-decoration: none;
+  
+}
+
+.navBouton:hover{
+  background-color: rgb(63, 0, 63);
+}
+
+.boutonLogIn{
+  display: flex;
+  height: 100%;
+  width: 20%;
+  justify-content: center;
+  align-items: center;
+}
+
+.logIn{
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(241, 223, 241);
+  color: rgb(49, 9, 87);
+  text-align: center;
+  font-size: 1.75vw;
+  border-radius: 5px 20px 5px 20px;
+  border: 1vw solid rgb(96, 0, 96);
+  padding: 3px 5px;
+  text-decoration: none;
+  height: 4vw;
+  width: 55%;
+  justify-content: center;
+  align-items: center;
+}
+
+.logIn:hover{
+  background-color: rgb(221, 189, 221);
+
+}
+
+@media (max-width: 650px) {
+  .menu{
+      display:none;
+  }
+
+  .navbar{
+      background-color: rgb(136, 0, 136);
+      height: 5vw;
+  }
+
+  .logo{
+      display: none;
+      align-items: center;
+      justify-content: center;
+      width: 20%;
+  }
+
+  .corps{
+      display: flex;
+      flex-direction: column;
+      margin-top: 6vw;
+  }
+
+  .navBouton{
+      height: 4.5vw;
+      width:12vw;
+      font-size: 2.625vw;
+  }
+
+  .fleche{
+      display:inline-block !important;
+      position: relative;
+      left: 50%;
+      top:1vw;
+  }
+
+  .navbar:hover .menu{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      align-items: center;
+      height: 100%;
+      width: 100%;
+      background-color: rgb(136, 0, 136);
+      align-items: center;
+  }
+
+  .navbar:hover .logo{
+      display: flex;
+      transition: 0.5s;
+      position:absolute;
+      top:0;
+      left: 1vw;
+      align-items: center;
+      justify-content: center;
+  }
+
+  .navbar:hover{
+      height: 20vw;
+      transition: 0.5s;
+  }
+
+
+  .navbar:hover .fleche{
+      display:none !important;
+  }
+
+
+  .scroll{
+      width: 90%;
+      height: 75vh;
+  }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.p {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+  
 .un {
   font-family: "Poppins", sans-serif;
   font-weight: 100;
@@ -33,7 +217,19 @@ body {
   gap: 20px; /* Espace entre le texte et les images */
 }
 
+.vosarticle{
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 25px;
+  display: flex;
+  width: 65%; 
+  background-color: plum; 
+  color: rgb(51, 3, 43);
+}
+
 .bienvenue{
+  text-align: center;
+  flex-direction: column;
   color: aliceblue;
   display: flex;
   position: absolute;
