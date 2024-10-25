@@ -8,4 +8,111 @@
     font-family: "Poppins", serif;
     font-weight: 700;
     font-style: normal;
+    margin-top: 150px;
+}
+
+.material-symbols-outlined{
+  font-size: inherit !important;
+}
+
+.navbar{
+  position: fixed;
+  width: calc(100% - 0.38vw);
+  height: 8vw;
+  transition: 0.5s;
+  border: 0.2vw solid black;
+  top: 0;
+  font-size: 5vw;
+}
+
+.menu{
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+  align-items: stretch;
+  height: 100%;
+  width: 100%;
+  background-color: rgb(136, 0, 136);
+}
+
+.fleche{
+  color: white;
+  display:none !important;
+}
+
+.logo{
+  height: 100%;
+  width: 15%;
+  transition: 0.5s;
+  margin-top: 0.6vw;
+}
+
+nav{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  width: 60%;
+  padding: 0 2vw;
+  gap:1vw;
+
+}
+
+.navBouton{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(112, 0, 112);
+  color: white;
+  text-wrap: nowrap;
+  font-size: 1.8vw;
+  border-radius: 1vw 0.4vw 1vw 0.4vw;
+  border: 0.5vw solid rgb(63, 0, 63);
+  padding: 3px 5px;
+  height: 3vw;
+  width: 8vw;
+  text-decoration: none;
+  
+}
+
+.navBouton:hover{
+  background-color: rgb(63, 0, 63);
+}
+
+.boutonLogIn{
+  display: flex;
+  height: 100%;
+  width: 20%;
+  justify-content: center;
+  align-items: center;
+}
+
+.logIn{
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(241, 223, 241);
+  color: rgb(49, 9, 87);
+  text-align: center;
+  font-size: 1.75vw;
+  border-radius: 5px 20px 5px 20px;
+  border: 1vw solid rgb(96, 0, 96);
+  padding: 3px 5px;
+  text-decoration: none;
+  height: 4vw;
+  width: 55%;
+  justify-content: center;
+  align-items: center;
+}
+
+.logIn:hover{
+  background-color: rgb(221, 189, 221);
+
+}
+
+body{
+  margin-left: 0;
+  margin-right: 0px;
+  margin-top: 0;
 }
