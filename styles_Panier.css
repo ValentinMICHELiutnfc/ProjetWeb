@@ -199,8 +199,7 @@ nav{
 }
 
 body {
-
-  background-color: #8806ce; 
+  background: linear-gradient(45deg, #ffccff, #330066 , #ffccff );
 }
 
 .Page {
@@ -223,8 +222,8 @@ body {
   font-size: 25px;
   display: flex;
   width: 65%; 
-  background-color: plum; 
-  color: rgb(51, 3, 43);
+  background-color: rgb(136, 0, 136); 
+  color: white;
 }
 
 .bienvenue{
@@ -248,9 +247,15 @@ strong{
   text-justify: center;
 }
 
-
+.touslesavcbouton{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
 
 .avcbouton {
+  box-shadow: #940199 0px 0px 15px;
+  margin-bottom: 10px;
   border-radius: 10px;
   padding: 10px;
   margin-right: 20px;
@@ -258,9 +263,9 @@ strong{
   display: flex;
   flex-direction: row;
   width: 65%; 
-  background-color: plum; 
+  background-color: rgb(136, 0, 136); 
   align-items: center; 
-  color: rgb(51, 3, 43);
+  color: white;
 }
 
 .grandeimage {
@@ -308,10 +313,10 @@ strong{
 }
 
 .zone_texte {
-  box-shadow: #080707 0px 0px 15px;
+  box-shadow: #e700ef 0px 0px 15px;
   flex-direction: column;
-  background-color: plum; 
-  color: #500379; 
+  background-color: rgb(136, 0, 136); 
+  color: white; 
   padding: 35px; 
   border-radius: 10px; 
   font-size: 18px; 
@@ -323,10 +328,10 @@ strong{
   position : sticky;
   bottom: 10px;
   right: 10px;
-  box-shadow: #080707 0px 0px 15px;
+  box-shadow: #e700ef 0px 0px 15px;
   flex-direction: column;
-  background-color: plum; 
-  color: #500379; 
+  background-color: rgb(131, 0, 131); 
+  color: white; 
   padding: 35px; 
   border-radius: 10px; 
   font-size: 18px; 
