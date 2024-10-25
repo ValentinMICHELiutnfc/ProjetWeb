@@ -200,6 +200,7 @@ nav{
 
 body {
   background: linear-gradient(45deg, #ffccff, #330066 , #ffccff );
+  margin: 0;
 }
 
 .Page {
