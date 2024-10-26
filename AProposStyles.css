@@ -25,7 +25,7 @@
     align-items: stretch;
     height: 100%;
     width: 100%;
-    background-color: rgb(136, 0, 136);
+    background-color: blueviolet;
 }
 
 .fleche{
@@ -38,6 +38,7 @@
     width: 15%;
     transition: 0.5s;
     margin-top: 0.6vw;
+    margin-left: 1vw;
 }
 
 nav{
@@ -160,7 +161,7 @@ nav{
 .entree{
     display:flex;
     flex-direction: row;
-    gap: 0.5vw;
+    gap: 1vw;
     justify-content: center;
     align-items: center;
     width: 85%;
@@ -187,13 +188,19 @@ nav{
     text-decoration: none;
 }
 
+.zoneTexte{
+    display : flex;
+    flex-direction: row;
+    gap : 1vw;
+}
+
 @media (max-width: 800px) {
     .menu{
         display:none;
     }
 
     .navbar{
-        background-color: rgb(136, 0, 136);
+        background-color: blueviolet;
         height: 8vw;
     }
 
@@ -211,6 +218,10 @@ nav{
     }
 
     .entree{
+        flex-direction: column;
+    }
+
+    .zoneTexte{
         flex-direction: column;
     }
 
@@ -242,7 +253,6 @@ nav{
         align-items: center;
         height: 100%;
         width: 100%;
-        background-color: rgb(136, 0, 136);
         align-items: center;
     }
 
@@ -320,17 +330,11 @@ body{
 
 }
 
-.zoneTexte{
-    display : flex;
-    flex-direction: row;
-}
-
 .message{
     display: flex;
     flex-direction: row;
     align-items: center;
     gap: 1vw;
-    width: 85%;
     color: white;
 }
 
