@@ -401,7 +401,10 @@ strong{
 .zone_texte2 {
   position : fixed;
   width: 60%;
-  padding: 5px; 
+  padding: 5px;
+  top: 70px;
+  left: 10px;
+  height : 150px;
 }
 
 }
