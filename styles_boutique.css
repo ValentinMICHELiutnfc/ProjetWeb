@@ -213,10 +213,7 @@ nav{
     animation-direction: alternate;
 }
 
-@media (max-width: 800px) {
-    .menu{
-        display:none;
-    }
+
 
     .navbar{
         background-color: blueviolet;
@@ -406,5 +403,7 @@ h2{
   gap: 3px;}
   .texteproduit{
   max-width: 40vw;
+  .menu{
+    display:none;
   }
 }
