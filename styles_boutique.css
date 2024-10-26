@@ -347,3 +347,18 @@ h2{
     background-color: #199c07;
     color: white;
 }
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1110px){
+  .box{flex-direction: column;
+  gap: 3px;}
+}
