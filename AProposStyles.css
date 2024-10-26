@@ -145,7 +145,10 @@ nav{
     to {
         transform: scale(1.075);
     }
-  }
+}
+
+
+
 .current{
     animation-duration: 1.5s;
     animation-name: changewidth;
@@ -153,6 +156,36 @@ nav{
     animation-direction: alternate;
 }
 
+
+.entree{
+    display:flex;
+    flex-direction: row;
+    gap: 0.5vw;
+    justify-content: center;
+    align-items: center;
+    width: 85%;
+    color: white;
+    margin-bottom: 5.5vw;
+    text-wrap: nowrap;
+
+}
+
+.envoyer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(112, 0, 112);
+    color: white;
+    text-wrap: nowrap;
+    font-size: 1.6vw;
+    border-radius: 1vw 0.4vw 1vw 0.4vw;
+    border: 0.5vw solid rgb(63, 0, 63);
+    padding: 3px 5px;
+    height: 4vw;
+    width: 10vw;
+    text-decoration: none;
+}
 
 @media (max-width: 800px) {
     .menu{
@@ -175,6 +208,18 @@ nav{
         display: flex;
         flex-direction: column;
         margin-top: 12vw;
+    }
+
+    .entree{
+        flex-direction: column;
+    }
+
+    .envoyer{
+        margin-top: 3vw;
+        height: 10vw;
+        width: 20vw;
+        font-size: 4vw;
+        border-radius: 2vw 0.8vw 2vw 0.8vw;
     }
 
     .navBouton{
@@ -266,19 +311,11 @@ body{
     margin: 1.5vw;
 }
 
-.entree{
-    display:flex;
-    flex-direction: row;
-    gap: 0.5vw;
-    justify-content: center;
-    align-items: center;
-    width: 85%;
-    color: white;
-}
 
 .coordonees{
     display: flex;
     flex-direction: column;
+    justify-content: center;
     gap: 1vw;
 
 }
@@ -298,22 +335,7 @@ body{
 }
 
 
-.envoyer{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    background-color: rgb(112, 0, 112);
-    color: white;
-    text-wrap: nowrap;
-    font-size: 1.6vw;
-    border-radius: 1vw 0.4vw 1vw 0.4vw;
-    border: 0.5vw solid rgb(63, 0, 63);
-    padding: 3px 5px;
-    height: 4vw;
-    width: 10vw;
-    text-decoration: none;
-}
+
 
 .envoyer:hover{
     background-color: rgb(63, 0, 63);
@@ -334,5 +356,5 @@ body{
 
 
 .valeursMessage{
-    height:80%;
+    height:85%;
 }
