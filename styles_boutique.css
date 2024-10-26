@@ -253,11 +253,9 @@ h2{
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     gap: 25px;
     align-items: center;
-    /*width: 250px;*/
 }
 
 .texteproduit{
-  /*display: flex;*/
   flex-wrap: wrap;
   max-width: 20vw;
 }
@@ -326,4 +324,7 @@ h2{
 @media (max-width: 1110px){
   .box{flex-direction: column;
   gap: 3px;}
+  .texteproduit{
+  max-width: 40vw;
+  }
 }
