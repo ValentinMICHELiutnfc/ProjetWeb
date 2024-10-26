@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Lien vers le fichier CSS -->
     <link rel="stylesheet" href="AProposStyles.css">
+    <link rel="favicon" href="images/logo.png">
     <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
 
     <title>À propos</title>
@@ -31,9 +32,9 @@
 
     <div class="corps">
         <div class="contenu">
-            <h1>À propos</h1>
+            <h1>À propos de nous</h1>
             <h2>Où trouver Percétou ?</h2>
-            <p>inserer texte</p>
+            <p>Retrouvez-nous sur Belfort !</p>
             <h2>Comment en est-on arrivés là ?</h2>
             <p>inserer texte</p>
         </div>
@@ -41,7 +42,7 @@
             <h1>Tutoriel</h1>
             <h2>Comment Percer un Trou ?</h2>
             <h3>Etape n°1</h3>
-            <p>inserer d'abord un forêt</p>
+            <p>Inserez d'abord un forêt</p>
             <img src="images/InsererForet.gif" alt="" width="100%">
             <h3>Etape n°2</h3>
             <p>Serrez très fort le forêt</p>
@@ -64,15 +65,27 @@
 
     <div class="formulaire">
         <h1>Contactez-nous</h1>
-        <form action="mailto:" method="post">
-            <label for="nom">Nom</label>
-            <input type="text" id="nom" name="nom" required>
-            <label for="prenom">Prénom</label>
-            <input type="text" id="prenom" name="prenom" required>
-            <label for="email">Email</label>
-            <input type="email" id="email" name="email" required>
-            <label for="message">Message</label>
-            <textarea name="message" id="message" cols="30" rows="10" required></textarea>
+        <form action="mailto:" method="post" class="entree">
+            <div class="zoneTexte">
+                <div class="coordonees">
+                    <div>
+                        <label for="nom">Nom : &nbsp;&nbsp;&emsp;&emsp;</label>
+                        <input type="text" id="nom" name="nom" required>
+                    </div>
+                    <div>
+                        <label for="prenom">Prénom : &emsp;</label>
+                        <input type="text" id="prenom" name="prenom" required>
+                    </div>
+                    <div>
+                        <label for="email">Email : &nbsp;&emsp;&emsp;</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                </div>
+                <div>
+                    <label for="message">Message : </label>
+                    <textarea name="message" id="message" cols="30" rows="10" required></textarea>
+                </div>
+            </div>
             <input type="submit" value="Envoyer">
     </div>
 

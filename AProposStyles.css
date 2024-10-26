@@ -1,4 +1,7 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
 .material-symbols-outlined{
     font-size: inherit !important;
 }
@@ -107,8 +110,10 @@ nav{
     gap: 3vw;
     justify-content: center;
     align-items: center;
-    background-color: rgb(241, 223, 241);
-    border: 2px solid rgb(245, 15, 245);
+    background-color: #330066;
+    color : white;
+    text-align: center;
+    border: 2.5px solid rgb(136, 0, 136);
     border-radius: 20px 5px 20px 5px;
     padding: 1vw;
     margin: 1.5vw;
@@ -127,7 +132,7 @@ nav{
     border-radius: 20px 5px 20px 5px;
     background-color: rgb(0, 0, 0);
     box-shadow: 0 0 20px rgb(183, 7, 183);
-    color: rgb(182, 118, 182);
+    color: white;
     text-align: center;
     flex-shrink: 0;
 }
@@ -212,7 +217,7 @@ nav{
 
 
 h1{
-    color: purple;
+    color: white;
     font-size: 50px;
     text-align: center;
 }
@@ -223,6 +228,7 @@ body{
     margin-right: 0px;
     margin-top: 0;
     background: linear-gradient(45deg, #330066, #ffccff, #330066 ,#ffccff );
+    font-family: "Poppins", serif;
 }
 
 .contenu{
@@ -236,14 +242,35 @@ body{
     gap: 1vw;
     justify-content: center;
     align-items: center;
-    background-color: rgb(241, 223, 241);
-    border: 2px solid rgb(245, 15, 245);
+    background-color: #330066;
+    border: 2.5px solid rgb(136, 0, 136);
     box-shadow: 0 0 20px rgb(183, 7, 183);
     border-radius: 20px 5px 20px 5px;
     padding: 1vw;
     margin: 1.5vw;
 }
 
+.entree{
+    display:flex;
+    flex-direction: row;
+    gap: 0.5vw;
+    justify-content: center;
+    align-items: center;
+    width: 85%;
+    color: white;
+}
+
+.coordonees{
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+
+}
+
+.zoneTexte{
+    display : flex;
+    flex-direction: row;
+}
 .current{
     /*text-decoration: wavy;*/
 }
