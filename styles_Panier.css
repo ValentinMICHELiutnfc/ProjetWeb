@@ -1,3 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+.boutonPlus{
+  color: white;
+}
+
+.material-symbols-outlined{
+  font-size: inherit !important;
+}
+
+
+
 .navbar{
   position: fixed;
   width: calc(100% - 0.38vw);
@@ -15,7 +28,7 @@
   align-items: stretch;
   height: 100%;
   width: 100%;
-  background-color: rgb(136, 0, 136);
+  background-color: blueviolet;
 }
 
 .fleche{
@@ -28,6 +41,7 @@
   width: 15%;
   transition: 0.5s;
   margin-top: 0.6vw;
+  margin-left: 1vw;
 }
 
 nav{
@@ -50,12 +64,12 @@ nav{
   background-color: rgb(112, 0, 112);
   color: white;
   text-wrap: nowrap;
-  font-size: 1.8vw;
+  font-size: 1.6vw;
   border-radius: 1vw 0.4vw 1vw 0.4vw;
   border: 0.5vw solid rgb(63, 0, 63);
   padding: 3px 5px;
   height: 3vw;
-  width: 8vw;
+  width: 8.5vw;
   text-decoration: none;
   
 }
@@ -94,14 +108,35 @@ nav{
 
 }
 
-@media (max-width: 870px) {
+
+
+@keyframes changewidth {
+  from {
+    transform: scale(1);
+  }
+
+  to {
+      transform: scale(1.075);
+  }
+}
+
+
+
+.current{
+  animation-duration: 1.5s;
+  animation-name: changewidth;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@media (max-width: 800px) {
   .menu{
       display:none;
   }
 
   .navbar{
-      background-color: rgb(136, 0, 136);
-      height: 5vw;
+      background-color: blueviolet;
+      height: 8vw;
   }
 
   .logo{
@@ -111,15 +146,9 @@ nav{
       width: 20%;
   }
 
-  .corps{
-      display: flex;
-      flex-direction: column;
-      margin-top: 6vw;
-  }
-
   .navBouton{
       height: 4.5vw;
-      width:12vw;
+      width:15.5vw;
       font-size: 2.625vw;
   }
 
@@ -137,7 +166,6 @@ nav{
       align-items: center;
       height: 100%;
       width: 100%;
-      background-color: rgb(136, 0, 136);
       align-items: center;
   }
 
@@ -161,14 +189,10 @@ nav{
       display:none !important;
   }
 
-
-  .scroll{
-      width: 90%;
-      height: 75vh;
-  }
-
+  
 
 }
+
 
 
 
@@ -201,6 +225,7 @@ nav{
 body {
   background: linear-gradient(45deg, #330066, #ffccff, #330066 ,#ffccff );
   margin: 0;
+  font-family: "Poppins", serif;
 }
 
 .Page {
