@@ -295,9 +295,7 @@ h1{
 
 
 body{
-    margin-left: 0;
-    margin-right: 0px;
-    margin-top: 0;
+    margin: 0;
     background: linear-gradient(45deg, #330066, #ffccff, #330066 ,#ffccff );
     font-family: "Poppins", serif;
 }
@@ -361,4 +359,57 @@ body{
 
 .valeursMessage{
     height:85%;
+}
+
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: blueviolet;
+    height: auto;
+    width: 100%;
+    bottom: 0;
+    font-size: 1.5vw;
+    border: 0.2vw solid black;
+    box-sizing: border-box;
+}
+
+.footerParties {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    text-align: center;
+    padding: 0.75vw;
+    color: white;
+    margin: 0.4vw 0;
+    font-size: 1.2vw;
+}
+
+.titresF {
+    font-size: 1.5vw;
+}
+
+.liens {
+    color: white;
+    text-decoration: none;
+    text-wrap: nowrap;
+    text-justify: center;
+}
+
+.liens:hover {
+    color: rgb(63, 0, 63);
+    text-decoration: underline;
+}
+
+.imageLogos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    width : 100%;
 }
