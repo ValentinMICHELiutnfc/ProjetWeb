@@ -66,8 +66,8 @@ nav{
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  background-color: lightgray;
-  color: black;
+  background-color: rgb(112, 0, 112);
+  color: white;
   text-wrap: nowrap;
   font-size: 1.4vw;
   border-radius: 1vw 0.4vw 1vw 0.4vw;
@@ -142,14 +142,14 @@ body{
   padding-bottom: 40px;
 }
 
-@media (max-width: 650px) {
+@media (max-width: 800px) {
   .menu{
       display:none;
   }
 
   .navbar{
-      background-color: rgb(136, 0, 136);
-      height: 5vw;
+      background-color: blueviolet;
+      height: 8vw;
   }
 
   .logo{
@@ -159,15 +159,9 @@ body{
       width: 20%;
   }
 
-  .corps{
-      display: flex;
-      flex-direction: column;
-      margin-top: 6vw;
-  }
-
   .navBouton{
       height: 4.5vw;
-      width:12vw;
+      width:15.5vw;
       font-size: 2.625vw;
   }
 
@@ -185,7 +179,6 @@ body{
       align-items: center;
       height: 100%;
       width: 100%;
-      background-color: rgb(136, 0, 136);
       align-items: center;
   }
 
@@ -207,12 +200,6 @@ body{
 
   .navbar:hover .fleche{
       display:none !important;
-  }
-
-
-  .scroll{
-      width: 90%;
-      height: 75vh;
   }
 
   
