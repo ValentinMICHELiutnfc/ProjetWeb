@@ -8,6 +8,8 @@ Etudiant 2 : [Valentin MICHEL](mailto:valentin.michel03@edu.univ-fcomte.fr?subje
 
 Etudiant 3 : [Owen HETRU](mailto:owen.hetru@edu.univ-fcomte.fr?subject=SITEWEB) 
 
+Etudiant 4 : [Ethan KOPERECZ](mailto:ethan.koperecz@edu.univ-fcomte.fr?subject=SITEWEB)
+
 
 
 - La page d'accueil a été réalisée par Ethan KOPERECZ
