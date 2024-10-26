@@ -315,6 +315,10 @@ body{
     text-decoration: none;
 }
 
+.envoyer:hover{
+    background-color: rgb(63, 0, 63);
+}
+
 .valeurs{
     background-color: rgb(112, 0, 112);
     border-radius: 0.5vw 0.2vw 0.5vw 0.2vw;
@@ -326,4 +330,9 @@ body{
 
 .valeurs:hover{
     background-color: rgb(63, 0, 63);
+}
+
+
+.valeursMessage{
+    height:80%;
 }
