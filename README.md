@@ -2,8 +2,19 @@
 
 [Accès site web](https://valentinmicheliutnfc.github.io/ProjetWeb/)
 
-Etudiant 1 :  [Thomas Millon](mailto:thomas.millon@edu.univ-fcomte.fr?subject=SITEWEB)  
+Etudiant 1 :  [Thomas MILLON](mailto:thomas.millon@edu.univ-fcomte.fr?subject=SITEWEB)  
 
-Etudiant 2 : [Valentin Michel](mailto:valentin.michel03@edu.univ-fcomte.fr?subject=SITEWEB) 
+Etudiant 2 : [Valentin MICHEL](mailto:valentin.michel03@edu.univ-fcomte.fr?subject=SITEWEB) 
 
 Etudiant 3 : [Owen HETRU](mailto:owen.hetru@edu.univ-fcomte.fr?subject=SITEWEB) 
+
+Etudiant 4 : [Ethan KOPERECZ](mailto:ethan.koperecz@edu.univ-fcomte.fr?subject=SITEWEB)
+
+
+
+- La page d'accueil a été réalisée par Ethan KOPERECZ
+- La page de boutique a été réalisée par Valentin MICHEL
+- Le panier a été réalisé par Owen HETRU
+- La page à propos a été réalisée par Thomas MILLON
+
+Thomas MILLON a travaillé sur le header et sur le footer
