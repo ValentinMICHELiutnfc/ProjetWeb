@@ -9,228 +9,193 @@ body{
 
 
 
-
-.material-symbols-outlined {
-  font-variation-settings:
-  'FILL' 0,
-  'wght' 400,
-  'GRAD' 0,
-  'opsz' 24
-}
-
-
-
 .material-symbols-outlined{
-  font-size: inherit !important;
+    font-size: inherit !important;
 }
 
 
 
 .navbar{
-  position: fixed;
-  width: calc(100% - 0.38vw);
-  height: 8vw;
-  transition: 0.5s;
-  border: 0.2vw solid black;
-  top: 0;
-  font-size: 5vw;
+    position: fixed;
+    width: calc(100% - 0.38vw);
+    height: 8vw;
+    transition: 0.5s;
+    border: 0.2vw solid black;
+    top: 0;
+    font-size: 5vw;
 }
 
 .menu{
-  display: flex;
-  flex-direction: row;
-  justify-content:space-between;
-  align-items: stretch;
-  height: 100%;
-  width: 100%;
-  background-color: rgb(136, 0, 136);
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: stretch;
+    height: 100%;
+    width: 100%;
+    background-color: blueviolet;
 }
 
 .fleche{
-  color: white;
-  display:none !important;
+    color: white;
+    display:none !important;
 }
 
 .logo{
-  height: 100%;
-  width: 15%;
-  transition: 0.5s;
-  margin-top: 0.6vw;
+    height: 100%;
+    width: 15%;
+    transition: 0.5s;
+    margin-top: 0.6vw;
+    margin-left: 1vw;
 }
 
 nav{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  height: 100%;
-  width: 60%;
-  padding: 0 2vw;
-  gap:1vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    width: 60%;
+    padding: 0 2vw;
+    gap:1vw;
 
 }
 
 .navBouton{
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  background-color: rgb(112, 0, 112);
-  color: white;
-  text-wrap: nowrap;
-  font-size: 1.6vw;
-  border-radius: 1vw 0.4vw 1vw 0.4vw;
-  border: 0.5vw solid rgb(63, 0, 63);
-  padding: 3px 5px;
-  height: 3vw;
-  width: 8.5vw;
-  text-decoration: none;
-  
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(112, 0, 112);
+    color: white;
+    text-wrap: nowrap;
+    font-size: 1.6vw;
+    border-radius: 1vw 0.4vw 1vw 0.4vw;
+    border: 0.5vw solid rgb(63, 0, 63);
+    padding: 3px 5px;
+    height: 3vw;
+    width: 8.5vw;
+    text-decoration: none;
+    
 }
 
 .navBouton:hover{
-  background-color: rgb(63, 0, 63);
+    background-color: rgb(63, 0, 63);
 }
 
 .boutonLogIn{
-  display: flex;
-  height: 100%;
-  width: 20%;
-  justify-content: center;
-  align-items: center;
+    display: flex;
+    height: 100%;
+    width: 20%;
+    justify-content: center;
+    align-items: center;
 }
 
 .logIn{
-  display: flex;
-  flex-direction: row;
-  background-color: rgb(241, 223, 241);
-  color: rgb(49, 9, 87);
-  text-align: center;
-  font-size: 1.75vw;
-  border-radius: 5px 20px 5px 20px;
-  border: 1vw solid rgb(96, 0, 96);
-  padding: 3px 5px;
-  text-decoration: none;
-  height: 4vw;
-  width: 55%;
-  justify-content: center;
-  align-items: center;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(241, 223, 241);
+    color: rgb(49, 9, 87);
+    text-align: center;
+    font-size: 1.75vw;
+    border-radius: 5px 20px 5px 20px;
+    border: 1vw solid rgb(96, 0, 96);
+    padding: 3px 5px;
+    text-decoration: none;
+    height: 4vw;
+    width: 55%;
+    justify-content: center;
+    align-items: center;
 }
 
 .logIn:hover{
-  background-color: rgb(221, 189, 221);
+    background-color: rgb(221, 189, 221);
 
 }
 
-.corps{
-  display: flex;
-  flex-direction: row;
-  gap: 3vw;
-  justify-content: center;
-  align-items: center;
-  background-color: rgb(241, 223, 241);
-  border: 2px solid rgb(245, 15, 245);
-  border-radius: 20px 5px 20px 5px;
-  padding: 1vw;
-  margin: 1.5vw;
-  margin-top: 12vw;
-  box-shadow: 0 0 20px rgb(181, 11, 181);
-}
-
-.scroll{
-  height: 60vh;
-  min-width: 212px;
-  width: 35%;
-  border:0.3vw solid purple;
-  overflow:auto;
-  padding: 1vw;
-  margin: 1vw;
-  border-radius: 20px 5px 20px 5px;
-  background-color: rgb(0, 0, 0);
-  box-shadow: 0 0 20px rgb(183, 7, 183);
-  color: rgb(182, 118, 182);
-  text-align: center;
-  flex-shrink: 0;
-}
 
 
-@media (max-width: 650px) {
-  .menu{
-      display:none;
-  }
-
-  .navbar{
-      background-color: rgb(136, 0, 136);
-      height: 8vw;
-  }
-
-  .logo{
-      display: none;
-      align-items: center;
-      justify-content: center;
-      width: 20%;
-  }
-
-  .corps{
-      display: flex;
-      flex-direction: column;
-      margin-top: 10vw;
-  }
-
-  .navBouton{
-      height: 4.5vw;
-      width:12vw;
-      font-size: 2.625vw;
-  }
-
-  .fleche{
-      display:inline-block !important;
-      position: relative;
-      left: 50%;
-      top:1vw;
-  }
-
-  .navbar:hover .menu{
-      display: flex;
-      flex-direction: column;
-      justify-content: space-evenly;
-      align-items: center;
-      height: 100%;
-      width: 100%;
-      background-color: rgb(136, 0, 136);
-      align-items: center;
-  }
-
-  .navbar:hover .logo{
-      display: flex;
-      transition: 0.5s;
-      position:absolute;
-      top:0;
-      left: 1vw;
-      align-items: center;
-      justify-content: center;
-  }
-
-  .navbar:hover{
-      height: 20vw;
-      transition: 0.5s;
-  }
-
-
-  .navbar:hover .fleche{
-      display:none !important;
-  }
-
-
-  .scroll{
-      width: 90%;
-      height: 75vh;
-  }
-
+@keyframes changewidth {
+    from {
+      transform: scale(1);
+    }
   
-
+    to {
+        transform: scale(1.075);
+    }
 }
 
+
+
+.current{
+    animation-duration: 1.5s;
+    animation-name: changewidth;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@media (max-width: 800px) {
+    .menu{
+        display:none;
+    }
+
+    .navbar{
+        background-color: blueviolet;
+        height: 8vw;
+    }
+
+    .logo{
+        display: none;
+        align-items: center;
+        justify-content: center;
+        width: 20%;
+    }
+
+    .navBouton{
+        height: 4.5vw;
+        width:15.5vw;
+        font-size: 2.625vw;
+    }
+
+    .fleche{
+        display:inline-block !important;
+        position: relative;
+        left: 50%;
+        top:1vw;
+    }
+
+    .navbar:hover .menu{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        height: 100%;
+        width: 100%;
+        align-items: center;
+    }
+
+    .navbar:hover .logo{
+        display: flex;
+        transition: 0.5s;
+        position:absolute;
+        top:0;
+        left: 1vw;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .navbar:hover{
+        height: 20vw;
+        transition: 0.5s;
+    }
+
+
+    .navbar:hover .fleche{
+        display:none !important;
+    }
+  
+    
+
+}
 
 
 
