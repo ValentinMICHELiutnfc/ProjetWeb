@@ -2,13 +2,14 @@
     font-family: "Poppins", serif;
     font-weight: 400;
     font-style: normal;
+    color: lightgray;
   }
 
 .poppins-bold {
     font-family: "Poppins", serif;
     font-weight: 700;
     font-style: normal;
-    margin-top: 150px;
+    color: lightgray;
 }
 
 .material-symbols-outlined{
@@ -32,7 +33,7 @@
   align-items: stretch;
   height: 100%;
   width: 100%;
-  background-color: rgb(136, 0, 136);
+  background-color: blueviolet;
 }
 
 .fleche{
@@ -45,6 +46,7 @@
   width: 15%;
   transition: 0.5s;
   margin-top: 0.6vw;
+  margin-left: 20px;
 }
 
 nav{
@@ -64,8 +66,8 @@ nav{
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  background-color: rgb(112, 0, 112);
-  color: white;
+  background-color: lightgray;
+  color: black;
   text-wrap: nowrap;
   font-size: 1.8vw;
   border-radius: 1vw 0.4vw 1vw 0.4vw;
@@ -79,6 +81,7 @@ nav{
 
 .navBouton:hover{
   background-color: rgb(63, 0, 63);
+  color: white;
 }
 
 .boutonLogIn{
@@ -115,4 +118,26 @@ body{
   margin-left: 0;
   margin-right: 0px;
   margin-top: 0;
+  background: linear-gradient(90deg, black 10%, blueviolet 50%, black 90%)
+}
+
+.h {
+  margin-top: 150px;
+}
+
+.div1 {
+  padding: 25px 0; 
+  margin: 25px 0;
+  background-color: blueviolet;
+  border-color: black;
+  border-radius: 15px;
+  border-width: solid;
+  border-width: 20px;
+  box-shadow: 6px 6px 25px rgba(0, 0, 0, 0.5);
+}
+
+.div1:hover {
+  background-color: rgb(96, 0, 96);
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
