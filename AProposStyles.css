@@ -3,6 +3,8 @@
     font-size: inherit !important;
 }
 
+
+
 .navbar{
     position: fixed;
     width: calc(100% - 0.38vw);
@@ -55,12 +57,12 @@ nav{
     background-color: rgb(112, 0, 112);
     color: white;
     text-wrap: nowrap;
-    font-size: 1.8vw;
+    font-size: 1.6vw;
     border-radius: 1vw 0.4vw 1vw 0.4vw;
     border: 0.5vw solid rgb(63, 0, 63);
     padding: 3px 5px;
     height: 3vw;
-    width: 8vw;
+    width: 8.5vw;
     text-decoration: none;
     
 }
@@ -235,4 +237,8 @@ body{
     border-radius: 20px 5px 20px 5px;
     padding: 1vw;
     margin: 1vw;
+}
+
+.current{
+    /*text-decoration: wavy;*/
 }
